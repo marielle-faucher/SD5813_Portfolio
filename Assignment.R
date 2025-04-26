@@ -454,7 +454,7 @@ vis1 <- top5_time %>%
 vis1
 
 #save png
-ggsave(file = "D4JSem2/Vis_1.png",
+ggsave(file = "SD5813_Portfolio/Vis_1.png",
        dpi = 100,
        height = 7,
        width = 15)
@@ -577,7 +577,7 @@ vis2
 
 #save as png file
 
-ggsave(file = "D4JSem2/Vis_2.png",
+ggsave(file = "SD5813_Portfolio/Vis_2.png",
        dpi = 100,
        height = 7,
        width = 15)
