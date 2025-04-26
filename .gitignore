@@ -2,3 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.csv
+*.Rproj
