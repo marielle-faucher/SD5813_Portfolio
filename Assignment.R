@@ -435,9 +435,9 @@ vis1 <- top5_time %>%
   labs(x = "", y = "",
        title = "Top Deforested Countries",
        subtitle = "Trends of forested area as a percentage of total land <br>in 
-       <span style = 'color:#f7766d;'> Cambodia, </span> <span style = 'color:#03bf7d;'> Indonesia, </span> 
-       <span style = 'color:#e66bf3;'> Paraguay, </span> <span style = 'color:#02b1f6;'> Nicaragua, </span> and 
-       <span style = 'color:#a3a500;'> Gambia. </span><br>Globally, these five countries have the greatest decline in forested land percentage") +
+       <span style = 'color:#f7766d;'>Cambodia</span>, <span style = 'color:#03bf7d;'>Indonesia</span>, 
+       <span style = 'color:#e66bf3;'>Paraguay</span>, <span style = 'color:#02b1f6;'>Nicaragua</span>, and 
+       <span style = 'color:#a3a500;'>Gambia</span>.<br>Globally, these five countries have the greatest decline in forested land percentage.") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0,
                                   family = "dm_sans",
