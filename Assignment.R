@@ -434,15 +434,17 @@ vis1 <- top5_time %>%
             color = "#a3a500", family = "dm_sans") +
   labs(x = "", y = "",
        title = "Top Deforested Countries",
-       subtitle = "Five countries with the greatest forest loss from 1990 to 2021") +
+       subtitle = "Trends of forested area as a percentage of total land <br>in 
+       <span style = 'color:#f7766d;'> Cambodia, </span> <span style = 'color:#03bf7d;'> Indonesia, </span> 
+       <span style = 'color:#e66bf3;'> Paraguay, </span> <span style = 'color:#02b1f6;'> Nicaragua, </span> and 
+       <span style = 'color:#a3a500;'> Gambia. </span><br>Globally, these five countries have the greatest decline in forested land percentage") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0,
                                   family = "dm_sans",
                                   face = "bold",
                                   size = 35),
-        plot.subtitle = element_text(hjust = 0,
-                                     family = "dm_sans",
-                                     size = 25),
+        plot.subtitle = element_markdown(family = "dm_sans",
+                                     size = 20),
         axis.text.y = element_text(family = "dm_sans",
                                    size = 15),
         axis.text.x = element_text(family = "dm_sans",
