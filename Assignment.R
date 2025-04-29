@@ -356,7 +356,7 @@ vis_miss(forest_transposed_full)
 # transpose to swap rows and collumns
 
 forest_full_table <- t(forest_transposed_full)
-# transform matrix to dataframe i
+# transform matrix to dataframe
 
 forest_full_df <- as.data.frame(forest_full_table)
 
